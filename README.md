@@ -144,9 +144,10 @@ The **Encoder-Decoder CNN-LSTM model** is tailored for sequential data and long-
 ## **How to Run**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/time-series-analysis
+   git clone https://github.com/Perc6ptr0n/Time-Series-Analysis-for-Consumer-Behavior-using-an-Endoder-Decoder-CNN-LSTM-model/tree/main
    
 ---
 
 ## **Contributors**
--John (Ioannis) Laios – Data Scientist and Project Lead
+-John (Ioannis) Laios  
+-Data Scientist and Project Lead
