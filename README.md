@@ -30,6 +30,7 @@ The rise of prosumers has introduced bidirectional energy flows that vary signif
 ---
 
 ## **Data Architecture Analysis**
+![656e159e-ae46-4b72-ad69-21fb7d8a17b0](https://github.com/user-attachments/assets/23a68a52-1eac-4b41-aa98-5258542d581c)
 
 ### 2.1 Core Datasets Overview
 The project employs multiple datasets that provide hourly snapshots of energy flow and contextual information. These include:
@@ -121,6 +122,7 @@ The **Encoder-Decoder CNN-LSTM model** is tailored for sequential data and long-
 4. **Evaluation**:
    - Metrics: MAE.
    - Generate visualizations comparing predicted vs. actual values.
+![5c4c3467-c1f7-40b2-9626-cd9f467e4f24](https://github.com/user-attachments/assets/1e84744d-f475-4b4e-9805-054facd2771f)
 
 
 ---
