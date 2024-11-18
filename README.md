@@ -148,5 +148,5 @@ The **Encoder-Decoder CNN-LSTM model** is tailored for sequential data and long-
    
 ---
 
-##**Contributors**
+## **Contributors**
 -John (Ioannis) Laios – Data Scientist and Project Lead
