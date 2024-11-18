@@ -7,7 +7,7 @@
 ## **Overview**
 This project tackles the intricate challenge of forecasting energy consumption and production patterns of **prosumers**—entities that both produce and consume energy. With the increasing integration of renewable energy sources and prosumer behavior, traditional energy grids face growing complexity, necessitating robust, data-driven prediction models.
 
-This repository provides a comprehensive guide to implementing an **Encoder-Decoder CNN-LSTM model** for sequential data analysis, focusing on the critical aspects of energy grid management, dataset architecture, and feature engineering.
+This repository provides a comprehensive guide to implementing an Encoder-Decoder CNN-LSTM model for sequential data analysis. It focuses on the critical aspects of energy grid management, dataset architecture, and feature engineering.
 
 ---
 
@@ -116,19 +116,17 @@ The **Encoder-Decoder CNN-LSTM model** is tailored for sequential data and long-
 
 3. **Model Training**:
    - Implement and fine-tune the Encoder-Decoder CNN-LSTM architecture.
-   - Use advanced optimizers (e.g., Nadam) and validation techniques.
+   - Advanced optimizer (RMSprop) and validation techniques were used.
 
 4. **Evaluation**:
-   - Metrics: RMSE, MAE, and MAPE.
+   - Metrics: MAE.
    - Generate visualizations comparing predicted vs. actual values.
 
-5. **Recursive Forecasting**:
-   - Predict next-hour and 24-hour windows using historical data.
 
 ---
 
 ## **Results and Insights**
-- **Key Metrics**: Achieved RMSE and MAE within acceptable bounds for grid stability.
+- **Key Metrics**: Achieved  MAE within acceptable bounds for grid stability.
 - **Visualization**:
   - Predictions align closely with observed data across varying weather and price conditions.
   - Clear patterns observed in weekday/weekend and seasonal cycles.
@@ -139,6 +137,7 @@ The **Encoder-Decoder CNN-LSTM model** is tailored for sequential data and long-
 - Expand datasets to include more prosumer profiles and diverse geographic regions.
 - Integrate real-time streaming data for continuous prediction updates.
 - Explore advanced architectures like Transformer models for further improvement.
+- Predict next-hour and 24-hour windows using historical data.
 
 ---
 
@@ -146,6 +145,8 @@ The **Encoder-Decoder CNN-LSTM model** is tailored for sequential data and long-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/time-series-analysis
+   
+---
 
 ##**Contributors**
-John (Ioannis) Laios – Data Scientist and Project Lead
+-John (Ioannis) Laios – Data Scientist and Project Lead
